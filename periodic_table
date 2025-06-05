@@ -7,4 +7,12 @@ int main()
     int a;
     int Exit;
     int Exi
+
+    print(" Welcome to Modren Periodic Table\n\n");
+
+    printf("> Enter 1 to know about an element\n\n");
+    printf("> Enter 2 to close the periodic table\n\n");
+
+    printf("ENTER\n");
+    scanf("%d",&n);
 }
