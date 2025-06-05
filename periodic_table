@@ -15,4 +15,18 @@ int main()
 
     printf("ENTER\n");
     scanf("%d",&n);
+
+    if(n==1)
+    {
+        printf("> Press 3 to search the elements by atomic number\n\n ");
+
+        printf("ENTER\n");
+        scanf("%d",&m);
+
+        if(m==3)
+        {
+            
+        }
+
+    }
 }
