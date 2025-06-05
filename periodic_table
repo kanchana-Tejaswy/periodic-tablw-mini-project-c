@@ -57,7 +57,8 @@ int main()
             printf(" > Press 4 for Yes\n");
             printf("> Press 5 for No\n");
 
-            
+            printf("ENTER\n");
+            scanf("%d",&Exit)
         }
     }
 }
