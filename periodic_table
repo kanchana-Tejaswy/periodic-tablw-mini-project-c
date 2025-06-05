@@ -25,8 +25,30 @@ int main()
 
         if(m==3)
         {
-            
+           printf(" Enter the atomic number of the element to be searched : ");
+           scanf("%d", &a);
+           
+           if(a==1)
+           {
+             printf("Name : Hdrogen\n");
+             printf(" Symbol : H\n")
+             printf(" Atomic Number : 1\n");
+             printf(" Electromic configuration : 1s^1\n");
+             printf("Discovered By : Henry Cavendish\n");
+             printf(" Change : +1\n");
+
+           }
+           
         }
 
+    }
+    else if(n==2)
+    {
+        printf(" Do you want to exit ? ( Yes / No )\n ");
+        printf(" > press 6 for yes\n");
+        printf("> Press 7 for No\n");
+
+        printf(" ENTER\n");
+        scanf("%d",&Exit);
     }
 }
