@@ -58,7 +58,13 @@ int main()
             printf("> Press 5 for No\n");
 
             printf("ENTER\n");
-            scanf("%d",&Exit)
+            scanf("%d",&Exit);
+
+            if(Exi==4)
+            {
+                printf(" The periodic table has closed");
+            }
+            
         }
     }
 }
