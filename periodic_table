@@ -50,5 +50,14 @@ int main()
 
         printf(" ENTER\n");
         scanf("%d",&Exit);
+
+        if(Exit==6)
+        {
+            printf(" Are you sure, you want to close the periodic table ?( Yes / No)\n");
+            printf(" > Press 4 for Yes\n");
+            printf("> Press 5 for No\n");
+
+            
+        }
     }
 }
