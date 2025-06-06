@@ -64,6 +64,11 @@ int main()
             {
                 printf(" The periodic table has closed");
             }
+            else if (Exi==5)
+            {
+                printf(" Periodic Table is not closed and you can continue to learn more about elements\n\n")
+            }
+
             
         }
     }
